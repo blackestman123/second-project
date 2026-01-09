@@ -1,0 +1,23 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.gallery-wall {
+    position: relative;
+    width: 100%; /* Important: gives the absolute children a base width */
+}
+
+.frame {
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    /* This creates the smooth blend */
+    transition: background-image 0.7s ease-in-out; 
+	border: 1px solid rgba(255, 255, 255, 0.811);
+}
+
+/* Maintain your specific positioning */
+.middle { width: 13%; left: 43%; top: 35%; height: 28%; }
+.right  { width: 9.5%; left: 86.5%; top: 37%; height: 21%; }
+.left   { width: 9%; left: 4%; top: 40%; height: 18%; }
