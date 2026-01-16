@@ -14,7 +14,7 @@ function dissolveImage(element) {
 
     // Schedule the next dissolve randomly (between 2 and 5 seconds)
     // Slower intervals usually look better for dissolving effects
-    const nextTick = Math.random() * 3000 + 2000;
+    const nextTick = Math.random() * 1000 + 2000;
     setTimeout(() => dissolveImage(element), nextTick);
 }
 
